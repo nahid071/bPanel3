@@ -1,0 +1,121 @@
+*{
+    font-family: Segoe UI,Frutiger,Frutiger Linotype,Dejavu Sans,Helvetica Neue,Arial,sans-serif; 
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+    border: none;
+}
+main{
+    min-height: 100vh;
+    background-color: #1890FF;
+    display: flex;
+    justify-content: center;
+    place-items: center;
+}
+
+.left-bg-color{
+    height: 100vh;
+    width: 100%;
+    clip-path: polygon(0% 0%, 100% 0%, 0% 100%, 0% 100%);
+    background-color: #fff;
+    position: absolute;
+    left: 0%;
+}
+.logo{
+    font-size: 40px;
+    font-weight: bold;
+    color: #1890FF;
+    position: absolute;
+    left: 5%;
+    top: 3%;
+}
+@media only screen and (max-width: 900px) {
+    .logo{
+        font-size: 25px;
+    }   
+}
+.dialogue{
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    top: 35%;
+    left: 12%;
+    font-size: 25px;
+}
+@media only screen and (max-width: 900px) {
+    .dialogue{
+        top: 10%;
+        left: 5%;
+        font-size: 15px;
+    }   
+}
+.form-container{
+    height: 510px;
+    width: 400px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #fff;
+    border-radius: 10px;
+    border: 1px solid #1890FF;
+    position: absolute;
+    right: 12%;
+}
+@media only screen and (max-width: 900px) {
+    .form-container{
+        top: 20%;
+        left: 5%;
+        width: 350px;
+        height: 510px;
+    }    
+}
+.input-field{
+    height: 50px;
+    width: 350px;
+    border-radius: 5px;
+    border: 1px solid #d5dbe0;
+    box-shadow: 5px 5px 20px 1px #eeeff0;
+    padding: 0px 15px;
+    margin: 5px 0;
+}
+@media only screen and (max-width: 900px) {
+    .input-field{
+        width: 300px;
+    }    
+}
+.btn-log-in{
+    height: 50px;
+    width: 350px;
+    border-radius: 5px;
+    background-color: #1890FF;
+    font-size: 17px;
+    color: #fff;
+    cursor: pointer;
+    margin-top: 10px;
+}
+@media only screen and (max-width: 900px) {
+    .btn-log-in{
+        width: 300px;
+    }    
+}
+.link{
+    color: #1890FF;
+    display: flex;
+    justify-content: center;
+    padding-top: 10px;
+    text-decoration: none;
+}
+.link:hover{
+    text-decoration: underline;
+}
+
+.footer-link{
+    position: absolute;
+    bottom: 0%;
+    left: 5%;
+    text-decoration: none;
+    color: #fff;
+}
+.footer-link:visited{
+    color: #fff;
+}
